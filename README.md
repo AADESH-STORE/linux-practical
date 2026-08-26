@@ -51,12 +51,11 @@
 ---
 
 ## 🌐 Section C — Package Management & Services
-
 ### Q8. Package Management
 * **Commands used:** `sudo apt update`, `sudo apt install apache2 -y`, `apache2 -v`, `sudo systemctl start apache2`, `sudo systemctl status apache2`, `sudo systemctl enable apache2`
 * **Conclusion:** Updated repositories, deployed the HTTP web daemon service layer, and registered it into system boot hooks.
-![Q8 Output Part 1](screenshots/Q8%20ANS%20%281%29.png)
-![Q8 Output Part 2](screenshots/Q8%20ANS%20%282%29.png)
+![Q8 Output Part 1](screenshots/Q8%20ANS%201%29.png)
+![Q8 Output Part 2](screenshots/Q8%20ANS%202%29.png)
 
 ### Q9. Apache Web Server Configuration
 * **Commands used:** `cd /var/www/html`, `sudo nano index.html`, `sudo systemctl restart apache2`, `curl http://localhost`
@@ -80,8 +79,7 @@
 ### Q11. Search and Text Processing
 * **Commands used:** `grep -i "pattern" students.txt`, `wc -l`, `sort students.txt`, `find . -name "*.txt"`
 * **Conclusion:** Utilized robust regular expressions and pattern search tools to safely extract index logs from datasets.
-![Q11 Part 1](screenshots/Q11%20ANS%201%29.png)
-![Q11 Part 2](screenshots/Q11%20ANS%202%29.png)
+![Q11 Output](screenshots/Q11%20ANS.png)
 
 ---
 
@@ -90,6 +88,6 @@
 ### Q12. Linux Networking & Challenge
 * **Commands used:** `hostname`, `hostname -I`, `ifconfig`, `route -n`, `ping -c 4 google.com`, `curl -I google.com`
 * **Conclusion:** Checked socket device cards, traced the routing path gateway, and resolved the local HTTP socket problem.
-![Q12 Part 1](screenshots/Q12%20ANS%201%29.png)
-![Q12 Part 2](screenshots/Q12%20ANS%202%29.png)
-![Q12 Part 3](screenshots/Q12%20ANS%203%29.png)
+![Q12 Part 1](screenshots/Q12%20ANS%20%281%29.png)
+![Q12 Part 2](screenshots/Q12%20ANS%20%282%29.png)
+![Q12 Part 3](screenshots/Q12%20ANS%20%283%29.png)
