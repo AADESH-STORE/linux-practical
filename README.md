@@ -55,12 +55,14 @@
 ### Q8. Package Management
 * **Commands used:** `sudo apt update`, `sudo apt install apache2 -y`, `apache2 -v`, `sudo systemctl start apache2`, `sudo systemctl status apache2`, `sudo systemctl enable apache2`
 * **Conclusion:** Updated repositories, deployed the HTTP web daemon service layer, and registered it into system boot hooks.
-![Q8 Output](screenshots/Q8%20ANS.png)
+![Q8 Output Part 1](screenshots/Q8%20ANS%20%281%29.png)
+![Q8 Output Part 2](screenshots/Q8%20ANS%20%282%29.png)
 
 ### Q9. Apache Web Server Configuration
 * **Commands used:** `cd /var/www/html`, `sudo nano index.html`, `sudo systemctl restart apache2`, `curl http://localhost`
 * **Conclusion:** Built a customized homepage compiling individual verification markers and validated local rendering states.
-![Q9 Output](screenshots/Q9%20ANS.png)
+![Q9 Output Part 1](screenshots/Q9%20ANS%20%281%29.png)
+![Q9 Output Part 2](screenshots/Q9%20ANS%20%282%29.png)
 
 ---
 
